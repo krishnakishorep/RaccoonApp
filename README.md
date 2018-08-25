@@ -3,7 +3,7 @@
 During application development, we rely on automation scripts to run tests via Selenium or Loan runner and it requires effort to build scripts.
 
 ## Solution
-We are proposing a user driven test bed simulator which runs the existing test cases like Junits & Data builders which can create and assert the data via APIs.
+A user driven test bed simulator which runs the existing test cases like Junits & Data builders which can create and assert the data via APIs.
 
 ### Features:
 - Parameterize the test data driven by the user
