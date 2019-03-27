@@ -1,32 +1,38 @@
-# RaccoonApp
-## Problem Statement
-During application development, we rely on automation scripts to run tests via Selenium or Loan runner and it requires effort to build scripts.
-
-## Solution
-A user driven test bed simulator which runs the existing test cases like Junits & Data builders which can create and assert the data via APIs.
+# Social Media Application on MEAN STACK
+## Description
+This is a simple SPA where users can do post and view posts using pictures
 
 ### Features:
-- Parameterize the test data driven by the user
-- Predefined Test sets
-- Ability to modify the data in the test sets
-- Optionally login to save data
-- Ability to see previously ran test cases
-- Ability to execute test cases on any environment
-- Assert Integer, String results
-- Expose rest API to trigger the test cases
-- Ability to consume any REST/Soap web services to invoke the test beds
-- Generate the test reports
+- Post something on the App
+- Edit posts
+- Delete posts
+- Upload images on the post
+- Signup and login
+- View all posts and paginate the number of posts
 
+#### Posts Process:
+1. User view/post data on the UI
+2. PostService is called
+3. On backend RESTAPI will be called for corresponding operations GET/POST/PUT/DELETE
+5. RESTAPI use Mongoose schemas to commit/read data from MongoDB
 
-#### Based on following App server components:
-- Spring boot 
-- Gradle
-- MongoDB
-- Docker
+### Login Process:
+1. User Signup on the APP
+2. Backend RESTAPI is called to POST new user
+3. Once Signup is complete, login into APP
+4. Login will generate a signed token from Backend
+5. Token is sent to client/front end
+6. Token is set to expire in 1 hour and saved on client browser storage
+7. Subsequent calls between frontend and backend APIs communication uses token
 
-#### Based on following UI components:
-- Bootstrap for framework
-- Ajax
-- Java script
+#### Tech stack used:
 - AngularJS
-- jQuery
+- HTML5 for templates
+- Angular Material for themes
+- Express for middleware
+- NodeJS
+- Mongoose for driver to MongoDB
+
+#### Deployment:
+- Frontend deployment on Amazon s3
+- Backend deployment on Amazon Elastic Bean Stalk
