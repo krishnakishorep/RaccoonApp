@@ -1,4 +1,4 @@
-# Social Media Application on MEAN STACK
+# Social Media Application on MEAN Stack
 ## Description
 This is a simple SPA where users can do post and view posts using pictures
 
