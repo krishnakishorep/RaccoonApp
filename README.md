@@ -36,3 +36,12 @@ This is a simple SPA where users can do post and view posts using pictures
 #### Deployment:
 - Frontend deployment on Amazon s3
 - Backend deployment on Amazon Elastic Bean Stalk
+
+##### Home Page:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/HomePage.PNG)
+
+##### New Post:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/NewPost.PNG)
+
+##### View Posts:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/ViewPosts.PNG)
