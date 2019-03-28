@@ -45,3 +45,11 @@ This is a simple SPA where users can do post and view posts using pictures
 
 ##### View Posts:
 ![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/ViewPosts.PNG)
+
+#### Behind the scenes:
+##### REST Request:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/PUT-RESTRequest.PNG)
+##### User Token:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/Token.PNG)
+##### Mongo DB Collections:
+![image](https://github.com/krishnakishorep/SocialMediaApp-On-MEAN-Stack/blob/master/ScreenShots/UsersPostsMongo.PNG)
